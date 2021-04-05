@@ -6,9 +6,6 @@
 /* NAVIGATION */
 /* left side of navifation items */
 
-header{
-    margin: 0;
-}
 
 .nav-left{
 float: left;
@@ -23,6 +20,7 @@ padding-top: 40px;
     float: right;
     text-align: left;
     padding-top: 40px;
+    
 
 }
 
@@ -31,20 +29,22 @@ padding-top: 40px;
 #nav{
     margin: 0 auto;
     width: 100%;
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    border-bottom: solid 1px #000;
+    position: relative;
+}
+#nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    height: 150px;
-    position: absolute;
+    color: #000;
+}
+#nav ul li a:hover{
+    color: rgb(95, 95, 95);
+}
+.menu-item{
+    padding: 0 20px;
 }
 
-.menu-item{
-    text-align: center;
-    padding: 0;
-}
+
+/* logo */
 
 .nav-logo{
     background: url(../img/mr-s-logo.jpg) no-repeat center center / cover;
@@ -52,5 +52,9 @@ padding-top: 40px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    margin-left: -75px;
 }
