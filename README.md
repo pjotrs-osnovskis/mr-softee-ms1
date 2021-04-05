@@ -34,7 +34,7 @@ I intend to create a 4-page website that includes:
 
 ## Mockup
 
-[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a mochup of my page that I have in mine as of 05/04/21.
+[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a mockup of my page that I have in mind as of 05/04/21.
 
 
 ## Header
@@ -55,7 +55,7 @@ Private
 
 ## Project Status
 
-Project is in development as of 04/04/21, please follow Commits for further updates.
+Project is in development as of 05/04/21, please follow Commits and section below for further updates.
 
 ## Fixes/Issues/Solutions
 
@@ -64,3 +64,6 @@ Here I will comment on issues and problems I have faced and solutions I found.
 1. Centered Logo, I have alligned all items in one line and looks okay, but picture is stretched in middle column in full width, cant get it to be nicely in center. (overall time spent on centering the logo: about an hour) 
     + steps taken: played around with CSS and bootstrap classes to get it right, but nothing works at the moment.
     + **Solution** okay, seems to be sorted, logo is positioned in the middle and size I want it to be, gone thorugh some study material and had a mess in CSS after trying different things, so cleaned up the mess, then [this video](https://www.youtube.com/watch?v=hp-LP8Nv18s) gave me a little advice regards left: 50% and margin-left: half of the width of the image. I tried to play around with right: 50% and all, but it wont work. Works for now, will move on now.
+
+## Next step
+> add hero image and move on
