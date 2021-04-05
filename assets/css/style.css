@@ -1,0 +1,56 @@
+/* COLORS */
+
+
+
+
+/* NAVIGATION */
+/* left side of navifation items */
+
+header{
+    margin: 0;
+}
+
+.nav-left{
+float: left;
+text-align: right;
+padding-top: 40px;
+
+}
+
+/* right side of navigation items */
+
+.nav-right{
+    float: right;
+    text-align: left;
+    padding-top: 40px;
+
+}
+
+/* all navigation items */
+
+#nav{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    border-bottom: solid 1px #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 150px;
+    position: absolute;
+}
+
+.menu-item{
+    text-align: center;
+    padding: 0;
+}
+
+.nav-logo{
+    background: url(../img/mr-s-logo.jpg) no-repeat center center / cover;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+}

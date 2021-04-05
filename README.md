@@ -60,3 +60,6 @@ Project is in development as of 04/04/21, please follow Commits for further upda
 ## Fixes/Issues/Solutions
 
 Here I will comment on issues and problems I have faced and solutions I found.
+
+1. Centered Logo, I have alligned all items in one line and looks okay, but picture is stretched in middle column in full width, cant get it to be nicely in center. 
+    + steps taken: played around with CSS and bootstrap casses to get it right, but nothing works at the moment.
