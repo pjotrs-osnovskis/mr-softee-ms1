@@ -39,15 +39,39 @@ padding-top: 50px;
 
 
 /* logo part in navigation row */
-
+/* logo image was taken from www.mister-softee.co.uk, i got a permition to use it for learning purposes */
 .nav-logo{
-    background: url(../img/mr-s-logo.jpg) no-repeat center center / cover;
+    background: url(../img/mr-s-logo.png) no-repeat center center / cover;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     position: absolute;
     left: 50%;
     top: 0;
     content: "";
     margin-left: -75px;
+    z-index: 2;
+}
+
+
+
+/* hero image */
+/* actual image was made and edited by me */
+.hero-image{
+    background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
+    position: relative;
+    height: 500px;
+    margin-top: -20px;
+}
+
+/* Used colorzilla.com css gradient generator for gradient bit, made height 270 and top 0 to keep it at the top and have the visual I want. */
+
+#gradient {
+    z-index: 1;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 270px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+                
 }
