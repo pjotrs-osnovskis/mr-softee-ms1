@@ -12,7 +12,6 @@ text-align: right;
 }
 
 .nav-left li{
-    padding-right: 20px;
 }
 
 /* right side of navigation items */
@@ -20,7 +19,6 @@ text-align: right;
     float: right;
 }
 .nav-right li{
-    padding-left: 20px;
 }
 
 /* all navigation items */
@@ -36,13 +34,20 @@ text-align: right;
     font-size: 1.25rem;
     color: #000;
 }
-#nav ul li a:hover{
-    color: #ff9df7;
+.hvr-fade{
+    padding: 5px 15px;
+    border: 1px solid #ffffff00;
+
+    border-radius: 5px;
+
+}
+.hvr-fade:hover, .active{
+    background-color: #ff9df744;
+    border: 1px solid #ff9df765;
 }
 
-.menu-item{
-    margin: 0 30px;
-}
+
+
 
 /* logo part in navigation row */
 /* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
@@ -80,10 +85,20 @@ text-align: right;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );          
 }
 
+.hero-container{
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: -50px;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 5px;
+    width: 800px;
+    height: 335px;
+    
+}
+
 .hero-content{
     text-align: center;
     padding-top: 135px;
-
 }
 
 .hero-content h1{
@@ -97,31 +112,25 @@ hr{
 }
 
 .hero-content p{
-    width:85%;
+    width: 85%;
     padding: 20px 0 20px 0;    
     font-size: 1.2em;
     margin: 0 auto;
 }
 
-.hero-image-text-bg{
-    margin: 0 auto;
-    vertical-align: middle;
-    margin-top: -50px;
-    background: rgba(255,255,255, 0.6);
-    border-radius: 5px;
-    width: 800px;
-    height: 335px;
-}
 
 .btn{
     text-transform: uppercase;
+    font-size: 1.25rem;
     color: rgb(42, 52, 63);
-    border: 1px solid rgb(42, 52, 63);
     padding: 5px 15px;
+    border: 1px solid #ff9df765;
 }
 
 .btn:hover{
-    background-color: #ff9df7;
-    color: #fafafa;
-
+    background-color: #ff9df744;
+    border: 1px solid #ff9df765;
+    border-radius: 5px;
+    color: rgb(42, 52, 63);
+    ;
 }

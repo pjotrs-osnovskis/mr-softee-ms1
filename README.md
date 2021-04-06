@@ -65,5 +65,9 @@ Here I will comment on issues and problems I have faced and solutions I found.
     + steps taken: played around with CSS and bootstrap classes to get it right, but nothing works at the moment.
     + **Solution** okay, seems to be sorted, logo is positioned in the middle and size I want it to be, gone thorugh some study material and had a mess in CSS after trying different things, so cleaned up the mess, then [this video](https://www.youtube.com/watch?v=hp-LP8Nv18s) gave me a little advice regards left: 50% and margin-left: half of the width of the image. I tried to play around with right: 50% and all, but it wont work. Works for now, will move on now.
 
+2. Gradient of hero image, instead of fading image out in image editor I decided to try and do it using CSS. so I can chage images and still get the same result. Googled it and found a easy solution to use gradient generator, credits in the code. 
+
+3. Hero content container with transperent background. I knew how to make a transperent background, but had some struggle to vertically align it, tried bootstrap classes even, but at the end remembered that there is a simple "vertical-align" rule, so solved too. 
+
 ## Next step
-> add hero image and move on
+> add google fonts and pick fonts for the web app, then move on to footer and mobile preview.
