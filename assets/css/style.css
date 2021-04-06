@@ -9,20 +9,27 @@
 .nav-left{
 float: left;
 text-align: right;
-padding-top: 50px;
+}
+
+.nav-left li{
+    padding-right: 20px;
 }
 
 /* right side of navigation items */
 .nav-right{
     float: right;
-    padding-top: 50px;
+}
+.nav-right li{
+    padding-left: 20px;
 }
 
 /* all navigation items */
 
 #nav{
     position: relative;
+    padding-top: 50px;
 }
+
 #nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -34,12 +41,11 @@ padding-top: 50px;
 }
 
 .menu-item{
-    margin: 0 40px;
+    margin: 0 30px;
 }
 
-
 /* logo part in navigation row */
-/* logo image was taken from www.mister-softee.co.uk, i got a permition to use it for learning purposes */
+/* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
 .nav-logo{
     background: url(../img/mr-s-logo.png) no-repeat center center / cover;
     width: 150px;
@@ -52,7 +58,7 @@ padding-top: 50px;
     z-index: 2;
 }
 
-
+/* BODY */
 
 /* hero image */
 /* actual image was made and edited by me */
@@ -64,7 +70,6 @@ padding-top: 50px;
 }
 
 /* Used colorzilla.com css gradient generator for gradient bit, made height 270 and top 0 to keep it at the top and have the visual I want. */
-
 #gradient {
     z-index: 1;
     top: 0; right: 0; bottom: 0; left: 0;
@@ -72,6 +77,51 @@ padding-top: 50px;
     background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
     background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
-                
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );          
+}
+
+.hero-content{
+    text-align: center;
+    padding-top: 135px;
+
+}
+
+.hero-content h1{
+    padding-top: 25px;
+    color: rgb(42, 52, 63);
+}
+
+hr{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.hero-content p{
+    width:85%;
+    padding: 20px 0 20px 0;    
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.hero-image-text-bg{
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: -50px;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 5px;
+    width: 800px;
+    height: 335px;
+}
+
+.btn{
+    text-transform: uppercase;
+    color: rgb(42, 52, 63);
+    border: 1px solid rgb(42, 52, 63);
+    padding: 5px 15px;
+}
+
+.btn:hover{
+    background-color: #ff9df7;
+    color: #fafafa;
+
 }
