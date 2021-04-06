@@ -11,14 +11,9 @@ float: left;
 text-align: right;
 }
 
-.nav-left li{
-}
-
 /* right side of navigation items */
 .nav-right{
     float: right;
-}
-.nav-right li{
 }
 
 /* all navigation items */
@@ -26,6 +21,7 @@ text-align: right;
 #nav{
     position: relative;
     padding-top: 50px;
+    z-index: 2;
 }
 
 #nav ul li a{
@@ -33,16 +29,21 @@ text-align: right;
     text-transform: uppercase;
     font-size: 1.25rem;
     color: #000;
+    
 }
+
+/* Hover.css customisation */
 .hvr-fade{
-    padding: 5px 15px;
+    padding: 2px 15px;
     border: 1px solid #ffffff00;
-
-    border-radius: 5px;
-
+    border-radius: 7px;
 }
-.hvr-fade:hover, .active{
-    background-color: #ff9df744;
+.hvr-fade:hover{
+    background-color: #ff9df728;
+    border: 1px solid #ff9df765;
+    color: #000;
+}
+.active{
     border: 1px solid #ff9df765;
 }
 
@@ -120,17 +121,10 @@ hr{
 
 
 .btn{
+    border: 1px solid #ff9df765;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25rem;
-    color: rgb(42, 52, 63);
-    padding: 5px 15px;
-    border: 1px solid #ff9df765;
-}
+    color: #000;
 
-.btn:hover{
-    background-color: #ff9df744;
-    border: 1px solid #ff9df765;
-    border-radius: 5px;
-    color: rgb(42, 52, 63);
-    ;
 }
