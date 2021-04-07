@@ -1,5 +1,11 @@
 /* NAVIGATION */
 
+/* this is a content width fix, so it fits actual screen size */
+header .row{
+    margin: 0;
+    padding: 0;
+}
+
 /* left side of navifation items */
 .nav-left{
     float: left;
@@ -58,18 +64,14 @@
     margin-top: 10px;
 }
 
-/* BODY */
 
-/* with padding 0 taking away white spaces on the sides. */
-.hero{
-    padding: 0px;
-}
+/* BODY */
 
 /* hero image */
 /* actual image was made and edited by me */
 .hero-image{
     background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
-    height: 600px;
+    height: 610px;
     margin-top: -20px;
 }
 
@@ -83,10 +85,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );          
 }
 /* Hero container */
+
 .hero-container{
     margin: 0 auto;
     vertical-align: middle;
-    margin-top: -20px;
     background: rgba(255,255,255, 0.6);
     border-radius: 7px;
     width: 80%;
@@ -99,7 +101,7 @@
 }
 
 .hero-content h1{
-    padding-top: 50px;
+    padding: 55px 0 10px 0;
     color: rgb(42, 52, 63);
     font-family: 'Montserrat', sans-serif;}
 
@@ -110,7 +112,7 @@ hr{
 
 .hero-content p{
     width: 85%;
-    padding: 40px 0;    
+    padding: 25px 0 40px 0;    
     font-size: 1.2em;
     margin: 0 auto;
     font-family: 'Lexend', sans-serif;
@@ -127,3 +129,35 @@ hr{
     color: #000;
 }
 
+/* footer */
+
+footer{
+    height: 58px;
+    background-color: #ff9df765;
+    position: relative;
+}
+
+/* Figured this fix out by using dev tools in chrome */
+footer .list-inline-item:not(:last-child) {
+    margin: 0;
+    padding: 0;
+}
+/* Again, as in nav menu, used this fix to keep content size same as screen size. */
+footer .row{
+    padding: 0;
+    margin: 0;
+}
+
+.foot-left{
+    float: left;
+
+}
+
+.foot-center{
+    text-align: center;
+}
+
+.foot-right{
+    float: right;
+    text-align: right;
+}
