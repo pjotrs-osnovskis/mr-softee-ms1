@@ -69,5 +69,7 @@ Here I will comment on issues and problems I have faced and solutions I found.
 
 3. Hero content container with transperent background. I knew how to make a transperent background, but had some struggle to vertically align it, tried bootstrap classes even, but at the end remembered that there is a simple "vertical-align" rule, so solved too. 
 
+4. Width of website is 15 px wider than screen, tried box-sizing: border-box;, everywhere, but it won't work. Looking for solution online.
+
 ## Next step
 > add google fonts and pick fonts for the web app, then move on to footer and mobile preview.

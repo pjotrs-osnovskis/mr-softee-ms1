@@ -1,14 +1,9 @@
-/* COLORS */
-
-
-
-
 /* NAVIGATION */
 
 /* left side of navifation items */
 .nav-left{
-float: left;
-text-align: right;
+    float: left;
+    text-align: right;
 }
 
 /* right side of navigation items */
@@ -22,6 +17,7 @@ text-align: right;
     position: relative;
     padding-top: 50px;
     z-index: 2;
+
 }
 
 #nav ul li a{
@@ -29,7 +25,8 @@ text-align: right;
     text-transform: uppercase;
     font-size: 1.25rem;
     color: #000;
-    
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
 }
 
 /* Hover.css customisation */
@@ -39,16 +36,13 @@ text-align: right;
     border-radius: 7px;
 }
 .hvr-fade:hover{
-    background-color: #ff9df728;
+    background-color: #ff9df74f;
     border: 1px solid #ff9df765;
     color: #000;
 }
 .active{
     border: 1px solid #ff9df765;
 }
-
-
-
 
 /* logo part in navigation row */
 /* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
@@ -61,23 +55,26 @@ text-align: right;
     top: 0;
     content: "";
     margin-left: -75px;
-    z-index: 2;
+    margin-top: 10px;
 }
 
 /* BODY */
+
+/* with padding 0 taking away white spaces on the sides. */
+.hero{
+    padding: 0px;
+}
 
 /* hero image */
 /* actual image was made and edited by me */
 .hero-image{
     background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
-    position: relative;
-    height: 500px;
+    height: 600px;
     margin-top: -20px;
 }
 
 /* Used colorzilla.com css gradient generator for gradient bit, made height 270 and top 0 to keep it at the top and have the visual I want. */
 #gradient {
-    z-index: 1;
     top: 0; right: 0; bottom: 0; left: 0;
     height: 270px;
     background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
@@ -85,27 +82,26 @@ text-align: right;
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );          
 }
-
+/* Hero container */
 .hero-container{
     margin: 0 auto;
     vertical-align: middle;
-    margin-top: -50px;
+    margin-top: -20px;
     background: rgba(255,255,255, 0.6);
-    border-radius: 5px;
-    width: 800px;
-    height: 335px;
-    
+    border-radius: 7px;
+    width: 80%;
+    height: 400px;
 }
-
+/* hero content */
 .hero-content{
     text-align: center;
     padding-top: 135px;
 }
 
 .hero-content h1{
-    padding-top: 25px;
+    padding-top: 50px;
     color: rgb(42, 52, 63);
-}
+    font-family: 'Montserrat', sans-serif;}
 
 hr{
     margin: 0 auto;
@@ -114,17 +110,20 @@ hr{
 
 .hero-content p{
     width: 85%;
-    padding: 20px 0 20px 0;    
+    padding: 40px 0;    
     font-size: 1.2em;
     margin: 0 auto;
+    font-family: 'Lexend', sans-serif;
 }
 
-
+/* hero button */
 .btn{
     border: 1px solid #ff9df765;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.25rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
     color: #000;
-
 }
+
