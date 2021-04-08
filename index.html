@@ -20,10 +20,45 @@
 <body>
     <header>
 <!-- Navigation here, with logo in the middle using bootstrap classes to separate row in 3 columns -->
-        <div class="row">
+        <nav class="navbar navbar-expand-md">
+            <!-- LOGO HERE -->
+            <div class="nav-logo"></div>
+
+            <!-- NAVBAR BURGER BUTTON -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- NAVBAR LIST ITEMS -->
+            <div class="collapse navbar-collapse justify-content-end " id="nav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item hvr-fade active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item hvr-fade">
+                        <a class="nav-link" href="hire.html">Hire a van</a>
+                    </li>
+                    <li class="nav-item hvr-fade">
+                        <a class="nav-link" href="trays.html">Trays</a>
+                    </li>
+                    <li class="nav-item hvr-fade">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+<!-- <div class="row">
             <div class="col">
                 <div id="nav" class="list-inline">
-                    <div class="nav-logo"></div>
 
                     <ul class="col-5 nav-left">
                         <li class="list-inline-item"><a href="index.html" class="hvr-fade active">Home</a></li>
@@ -35,7 +70,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </header>
     <section >
         <div>

@@ -1,29 +1,36 @@
 /* NAVIGATION */
 
-/* this is a content width fix, so it fits actual screen size */
-header .row{
-    margin: 0;
-    padding: 0;
-}
-
-/* left side of navifation items */
-.nav-left{
-    float: left;
-    text-align: right;
-}
-
-/* right side of navigation items */
-.nav-right{
-    float: right;
-}
-
 /* all navigation items */
 
-#nav{
-    position: relative;
-    padding-top: 50px;
-    z-index: 2;
+.navbar-nav{
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
 
+.navbar-nav li:nth-child(1){
+    margin-right: 1rem;
+}
+.navbar-nav li:nth-child(2){
+    margin-right: 6rem;
+}
+.navbar-nav li:nth-child(3){
+    margin-left: 6rem;
+}
+.navbar-nav li:nth-child(4){
+    margin-left: 1rem;
+}
+
+
+
+
+#nav{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#nav ul{
+}
+
+#nav ul li{
 }
 
 #nav ul li a{
@@ -35,11 +42,13 @@ header .row{
     font-weight: 300;
 }
 
+
+
 /* Hover.css customisation */
 .hvr-fade{
-    padding: 2px 15px;
+    padding: 2px 1rem;
     border: 1px solid #ffffff00;
-    border-radius: 7px;
+    border-radius: 0.5rem;
 }
 .hvr-fade:hover{
     background-color: #ff9df74f;
@@ -64,6 +73,10 @@ header .row{
     margin-top: 1rem;
 }
 
+.navbar-toggler{
+    float: right;
+    background-color: #ff9df765;
+}
 
 /* BODY */
 
