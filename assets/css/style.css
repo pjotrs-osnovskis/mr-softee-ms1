@@ -54,14 +54,14 @@ header .row{
 /* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
 .nav-logo{
     background: url(../img/mr-s-logo.png) no-repeat center center / cover;
-    width: 150px;
-    height: 150px;
+    width: 10rem;
+    height: 10rem;
     position: absolute;
     left: 50%;
+    margin-left: -5rem;
     top: 0;
     content: "";
-    margin-left: -75px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 
@@ -71,14 +71,14 @@ header .row{
 /* actual image was made and edited by me */
 .hero-image{
     background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
-    height: 610px;
-    margin-top: -20px;
+    height: 38rem;
+    margin-top: -1rem;
 }
 
 /* Used colorzilla.com css gradient generator for gradient bit, made height 270 and top 0 to keep it at the top and have the visual I want. */
 #gradient {
     top: 0; right: 0; bottom: 0; left: 0;
-    height: 270px;
+    height: 17rem;
     background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
     background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
@@ -92,16 +92,16 @@ header .row{
     background: rgba(255,255,255, 0.6);
     border-radius: 7px;
     width: 80%;
-    height: 400px;
+    height: 25rem;
 }
 /* hero content */
 .hero-content{
     text-align: center;
-    padding-top: 135px;
+    padding-top: 9rem;
 }
 
 .hero-content h1{
-    padding: 55px 0 10px 0;
+    padding: 3.5rem 0 0.7rem 0;
     color: rgb(42, 52, 63);
     font-family: 'Montserrat', sans-serif;}
 
@@ -112,7 +112,7 @@ hr{
 
 .hero-content p{
     width: 85%;
-    padding: 25px 0 40px 0;    
+    padding: 2rem 0 3rem 0;    
     font-size: 1.2em;
     margin: 0 auto;
     font-family: 'Lexend', sans-serif;

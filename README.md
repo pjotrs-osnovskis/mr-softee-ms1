@@ -36,6 +36,8 @@ I intend to create a 4-page website that includes:
 
 [Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a mockup of my page that I have in mind as of 05/04/21.
 
+**Update:** Might simplfy landing page for simplicity 
+
 
 ## Header
 
@@ -43,7 +45,7 @@ Simple and light header, with naviagtion and burger button in mobile devices, lo
 
 ## Footer
 
-Fixed footer with company contacts info, social links (basic).
+footer with company contacts info, social links (basic).
 
 ## Contributors
 
