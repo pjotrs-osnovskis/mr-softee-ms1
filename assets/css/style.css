@@ -1,36 +1,12 @@
 /* NAVIGATION */
 
-/* all navigation items */
-
-.navbar-nav{
-    margin: 0 auto;
-    padding-top: 2.5rem;
-}
-
-.navbar-nav li:nth-child(1){
-    margin-right: 1rem;
-}
-.navbar-nav li:nth-child(2){
-    margin-right: 6rem;
-}
-.navbar-nav li:nth-child(3){
-    margin-left: 6rem;
-}
-.navbar-nav li:nth-child(4){
-    margin-left: 1rem;
-}
+/* navigation item allocation*/
 
 
 
-
+/* navigation decoration */
 #nav{
     background-color: rgba(255, 255, 255, 0);
-}
-
-#nav ul{
-}
-
-#nav ul li{
 }
 
 #nav ul li a{
@@ -55,9 +31,6 @@
     border: 1px solid #ff9df765;
     color: #000;
 }
-.active{
-    border: 1px solid #ff9df765;
-}
 
 /* logo part in navigation row */
 /* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
@@ -66,16 +39,38 @@
     width: 10rem;
     height: 10rem;
     position: absolute;
-    left: 50%;
-    margin-left: -5rem;
     top: 0;
     content: "";
     margin-top: 1rem;
+    margin-left: 4rem;
 }
 
+
+/* navbar burger menu  */
 .navbar-toggler{
-    float: right;
     background-color: #ff9df765;
+    margin-top: 3rem;
+    margin-right: 2.5rem;
+}
+
+.navbar-nav li{
+    text-align: right;
+    margin: 0.5rem 0;
+    padding: 0;
+    font-weight: 200;
+    padding-right: 3rem;
+}
+
+.navbar-nav{
+    margin-top: 0.5rem;
+    border: 1px solid #ff9df765;
+    border-radius: 0.5rem;
+    background-color: #ff9df74f;
+}
+
+.nav-link{
+    padding: 0;
+    margin: 0;
 }
 
 /* BODY */
@@ -110,7 +105,6 @@
 /* hero content */
 .hero-content{
     text-align: center;
-    padding-top: 9rem;
 }
 
 .hero-content h1{
@@ -155,7 +149,7 @@ footer .list-inline-item:not(:last-child) {
     margin: 0;
     padding: 0;
 }
-/* Again, as in nav menu, used this fix to keep content size same as screen size. */
+/* sed this fix to keep content size same as screen size. */
 footer .row{
     padding: 0;
     margin: 0;
@@ -174,3 +168,51 @@ footer .row{
     float: right;
     text-align: right;
 }
+
+
+
+
+
+
+/* evrything below is to adjust to desktop sizes */
+@media only screen and (min-width: 970px){
+
+/* add active for desktops (might change it once will have several pages for mobile too) */
+    .active{
+        border: 1px solid #ff9df765;
+    }
+/* remove burger collapsable menu styling */
+    .navbar-nav{
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        border: 0px solid #ffffff00;
+        background-color: #ffffff00;
+    }
+/* remove paddinf so rext would be centered within buttons */
+    .navbar-nav li{
+        padding: 0.2rem 1rem;
+    }
+/* position buttons around logo */
+    .navbar-nav li:nth-child(1){
+        margin-right: 1rem;
+    }
+    .navbar-nav li:nth-child(2){
+        margin-right: 7rem;
+    }
+    .navbar-nav li:nth-child(3){
+        margin-left: 7rem;
+    }
+    .navbar-nav li:nth-child(4){
+        margin-left: 1rem;
+    }
+
+/* center logo */
+    .nav-logo{
+        left: 50%;
+        margin-left: -5rem;
+    }
+
+    
+    
+}
+    

@@ -10,27 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400&family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
 <!-- Bootstrap 4.6.x -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<!-- Hover.css link here -->
+<!-- Hover.css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
-<!-- Custom CSS stylesheet here -->
+<!-- Custom CSS stylesheeT -->
     <link rel="stylesheet" href="assets/css/style.css">
 <!-- Page Title-->
     <title>Mister Softee UK | Best Ice Cream Van Hire in North Wales and North West</title>
 </head>
 <body>
     <header>
-<!-- Navigation here, with logo in the middle using bootstrap classes to separate row in 3 columns -->
-        <nav class="navbar navbar-expand-md">
-            <!-- LOGO HERE -->
+    <!-- Navigation here, with logo in the middle using bootstrap, base <nav> code snippet 
+    was sent over by mentor (shortened from bootstrap documentation), had to adjust it a 
+    little to my own liking -->
+        <nav class="navbar navbar-light navbar-expand-lg">
+        <!-- LOGO HERE -->
             <div class="nav-logo"></div>
 
-            <!-- NAVBAR BURGER BUTTON -->
+        <!-- NAVBAR BURGER BUTTON -->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- NAVBAR LIST ITEMS -->
-            <div class="collapse navbar-collapse justify-content-end " id="nav">
-                <ul class="navbar-nav ">
+        <!-- NAVBAR LIST ITEMS -->
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
                     <li class="nav-item hvr-fade active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -46,47 +48,30 @@
                 </ul>
             </div>
         </nav>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-
-
-
-<!-- <div class="row">
-            <div class="col">
-                <div id="nav" class="list-inline">
-
-                    <ul class="col-5 nav-left">
-                        <li class="list-inline-item"><a href="index.html" class="hvr-fade active">Home</a></li>
-                        <li class="list-inline-item"><a href="hire.html" class="hvr-fade">Hire A Van</a></li>
-                    </ul>
-                    <ul class="col-5 nav-right">
-                        <li class="list-inline-item"><a href="trays.html" class="hvr-fade">Trays</a></li>
-                        <li class="list-inline-item"><a href="about.html" class="hvr-fade">About Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
+        <!-- SOME JS SCRIPTS FOR BOOTSTRAP 4 TO WORK -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </header>
+    <!-- Hero section with image and main content, this will be changed for every page -->
     <section >
         <div>
+        <!-- MAIN BG IMAGE -->
             <div class="hero-image">
-                <div id="gradient">
+        <!-- GRADIENT EFFECT FOR BG IMAGE -->
+                <div id="gradient"></div>
+        <!-- MAIN CONTENT FOR LANDING PAGE` -->
                 <div class="hero-content">
                     <div class="hero-container">
                         <h1>Welcome to <br> Mister Softee UK</h1>
                         <hr>
                         <p>The best soft ice cream in whole North Wales, Anglesey and Cheshire. Private and corporate events are catered for. Negotiable prices, professional service and happiness at your door guaranteed.</p>
-                        <!-- Used button code snippet from bootstrap documentation and ammended style to my liking -->
+        <!-- Used button code snippet from bootstrap documentation and ammended style to my liking in CSS -->
                         <button type="button" class="btn hvr-fade">Hire a Van!</button>
                     </div>
                 </div>
-                </div>
             </div>
+            
         </div>
     </section>
     <footer>

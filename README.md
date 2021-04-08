@@ -45,7 +45,7 @@ Simple and light header, with naviagtion and burger button in mobile devices, lo
 
 ## Footer
 
-footer with company contacts info, social links (basic).
+fixed footer with company contacts info, social links (basic).
 
 ## Contributors
 
@@ -75,5 +75,13 @@ Here I will comment on issues and problems I have faced and solutions I found.
 + tried container and container-fluid from bootstrap, but it won't help.
 + Did not find solution online, but realised, that it might be navbar issue, checked .row in header, removed padding and it worked, now everything is fit to actual screen size.
 
-## Next step
->  move on to footer and mobile preview.
+5. After a mentor meeting, decided to go with suggestion and use bootstrap navigation, had an issue to figure how to put menu items in place I wanted with logo in the middle.
++ online did not show much results, so decided to figure how to center the menu items first and then spread them to place where I want it.
++ found ```mx-auto``` class that centered all items, but instead, to be able to style all items like I wanted, I picked ```navbar-nav```, centered it with own css and moved each item separately targeting child elements of ```navbar-nav```. Now it all is in place on desktop version like I need but in mobile preview it is a bit off, so will style it once will do mobile part later on.
+
+6. Realides that by using ```min-width```, best to strt off with mobile design and adjust rest of the code for desktop. will know for future.
+
+## Next steps
+> move on to mobile preview:
+> styled navifation
+> move on with mobile vision for hero imahe, content and so on.
