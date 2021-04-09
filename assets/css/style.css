@@ -17,7 +17,7 @@
 /* navbar burger menu  */
 .navbar-toggler{
     background-color: #ff9df769;
-    border: 1px solid #ff9df7dc;
+    border: 1px solid #ff9ef7e6;
     position: absolute;
     top: 0;
     content: "";
@@ -62,7 +62,7 @@
 }
 .hvr-fade:hover{
     background-color: #ff9df74f;
-    border: 1px solid #ff9df765;
+    border: 1px solid #ff9ef7e6;
     color: #000;
 }
 
@@ -95,13 +95,12 @@
 /* Hero content */
 
 .hero-box{
-    background: rgba(255,255,255, 0.6);
+    background: #ffffff99;
     width: 90%;
-    height: 100%;
     text-align: center;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hero-content{
@@ -115,7 +114,7 @@
 
 hr{
     width: 65%;
-    border-top: 1px solid #ff9df7dc;
+    border-top: 1px solid #ff9ef7e6;
     margin-top: 1rem;
 }
 
@@ -129,9 +128,9 @@ hr{
 
 /* hero button */
 .btn{
-    background-color: #ff9df7b7;
+    background-color: #ff9df7cc;
     margin-top: 0.7rem;
-    border: 1px solid #ff9df7dc;
+    border: 1px solid #ff9ef7e6;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -140,7 +139,6 @@ hr{
 }
 
 /* footer */
-
 footer{
     height: 5rem;
     background-color: #ff9df765;
@@ -157,31 +155,72 @@ footer .row{
     padding: 0;
     margin: 0;
 }
-
 footer{
     width: 100%;
 }
-
 .foot-left{
     float: left;
-
 }
-
 .foot-center{
     text-align: center;
 }
-
 .foot-right{
     float: right;
     text-align: right;
 }
+
+/* --==-- BENEFITS & PERKS SECTION (MOBILE) --==-- */
+
+#benefits-main-box{
+    background-color: #ff9ef740;
+    padding: 2rem 0;
+    width: 90%;
+    text-align: center;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: 0 auto;
+}
+
+.benefits-main-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+}
+
+.benefits-info-box{
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+.benefits-heading{
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.info-icons{
+    font-size: 1.25rem;
+    color: #ff9df7;
+}
+
+.benefits-paragraph{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+
+}
+
+
 
 /* --==-- MEDIA QUERIES --==-- */
 
 /* evrything below is to adjust to desktop sizes */
 @media only screen and (min-width: 770px){
 
-/*   NAVIGATION   */
+/*   NAVIGATION (DESKTOP)    */
 
 /* DESKTOP menu styling */
     #nav{
@@ -195,7 +234,7 @@ footer{
         background-color: #ffffff00;
     }
 
-/* position buttons around logo */
+/* position buttons around logo (DESKTOP)  */
     .navbar-nav li:nth-child(1){
         margin-right: 1.5rem;
     }
@@ -213,7 +252,7 @@ footer{
         text-align: center;
     }
 
-/* size and center logo */
+/* size and center logo (DESKTOP)  */
     .nav-logo{
         width: 10rem;
         height: 10rem;
@@ -221,7 +260,7 @@ footer{
         margin-left: -5rem;
     }
 
-/* Hover.css customization */
+/* Hover.css customization (DESKTOP)  */
     .hvr-fade{
         padding: 2px 1rem;
         border: 1px solid #ffffff00;
@@ -236,15 +275,15 @@ footer{
         border: 1px solid #ff9df765;
     }
 
-/* --==-- BODY --==-- */
+/* --==-- BODY (DESKTOP)  --==-- */
 
-/*   HERO IMAGE    */
+/*   HERO IMAGE (DESKTOP)     */
     .hero-image{
         height: 35rem;
         margin-top: 1rem;
         }
     
-/*    HERO CONTENT    */
+/*    HERO CONTENT (DESKTOP)     */
     .hero-box{
         background: rgba(255,255,255, 0.6);
         width: 75%;
@@ -259,10 +298,11 @@ footer{
         padding-top: 6rem;
     }
 
- /*    HERO HEADING    */
+ /*    HERO HEADING (DESKTOP)     */
     .hero-content h1{
         color: rgb(42, 52, 63);
-        font-family: 'Montserrat', sans-serif;}
+        font-family: 'Montserrat', sans-serif;
+    }
 
     hr{
         width: 50%;
@@ -270,7 +310,7 @@ footer{
         margin: 2rem auto;
     }
 
-/*   HERO PARAHRAPH    */
+/*   HERO PARAHRAPH (DESKTOP)     */
     .hero-content p{
         width: 80%;
         padding: 1rem 0;    
@@ -279,7 +319,7 @@ footer{
         font-family: 'Lexend', sans-serif;
     }
 
-/*    HERO BUTTON    */
+/*    HERO BUTTON (DESKTOP)     */
     .btn{
         background-color: #ff9df7ab;
         border: 1px solid #ff9df765;
@@ -290,6 +330,9 @@ footer{
         font-family: 'Lexend', sans-serif;
         font-weight: 300;
     }
+
+/* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
+
 
 
 
