@@ -1,30 +1,62 @@
 /* NAVIGATION */
 
-/* navigation item allocation*/
-
-
-
-/* navigation decoration */
-#nav{
-    background-color: rgba(255, 255, 255, 0);
+/* logo part in navigation row */
+/* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
+.nav-logo{
+    background: url(../img/mr-s-logo.png) no-repeat center center / cover;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 0;
+    content: "";
+    margin-top: 1rem;
+    left: 10%;
+    z-index: 1;
 }
 
-#nav ul li a{
+/* navbar burger menu  */
+.navbar-toggler{
+    background-color: #ff9df765;
+    position: absolute;
+    top: 0;
+    content: "";
+    margin: 2rem 0;
+    right: 10%;
+}
+#nav{
+    background-color: #ff9df798;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-nav{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.25rem;
-    color: #000;
+    font-size: 1.5rem;
     font-family: 'Lexend', sans-serif;
     font-weight: 300;
+    margin-top: 5rem;
 }
 
+.nav-link{
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    text-align: center;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+}
 
+.active{
+    background-color: #ffffff6b;
+}
 
-/* Hover.css customisation */
+/* Hover.css customization */
 .hvr-fade{
     padding: 2px 1rem;
     border: 1px solid #ffffff00;
-    border-radius: 0.5rem;
 }
 .hvr-fade:hover{
     background-color: #ff9df74f;
@@ -32,83 +64,49 @@
     color: #000;
 }
 
-/* logo part in navigation row */
-/* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
-.nav-logo{
-    background: url(../img/mr-s-logo.png) no-repeat center center / cover;
-    width: 10rem;
-    height: 10rem;
-    position: absolute;
-    top: 0;
-    content: "";
-    margin-top: 1rem;
-    margin-left: 4rem;
-}
 
+/* --==-- BODY --==-- */
 
-/* navbar burger menu  */
-.navbar-toggler{
-    background-color: #ff9df765;
-    margin-top: 3rem;
-    margin-right: 2.5rem;
-}
-
-.navbar-nav li{
-    text-align: right;
-    margin: 0.5rem 0;
-    padding: 0;
-    font-weight: 200;
-    padding-right: 3rem;
-}
-
-.navbar-nav{
-    margin-top: 0.5rem;
-    border: 1px solid #ff9df765;
-    border-radius: 0.5rem;
-    background-color: #ff9df74f;
-}
-
-.nav-link{
+.container-fluid{
     padding: 0;
     margin: 0;
+
 }
-
-/* BODY */
-
-/* hero image */
+/* hero image  */
 /* actual image was made and edited by me */
 .hero-image{
     background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
     height: 38rem;
     margin-top: -1rem;
+
 }
 
 /* Used colorzilla.com css gradient generator for gradient bit, made height 270 and top 0 to keep it at the top and have the visual I want. */
 #gradient {
     top: 0; right: 0; bottom: 0; left: 0;
-    height: 17rem;
+    height: 38rem;
     background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
     background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );          
 }
-/* Hero container */
 
-.hero-container{
-    margin: 0 auto;
-    vertical-align: middle;
+/* Hero content */
+
+.hero-content{
     background: rgba(255,255,255, 0.6);
     border-radius: 7px;
     width: 80%;
-    height: 25rem;
-}
-/* hero content */
-.hero-content{
+    height: 70%;
+    position: absolute;
     text-align: center;
+    margin: 8rem auto 0 auto;
+    top: 0; left: 0; right: 0;    
+
 }
 
 .hero-content h1{
-    padding: 3.5rem 0 0.7rem 0;
+    padding: 3rem 0 0.7rem 0;
     color: rgb(42, 52, 63);
     font-family: 'Montserrat', sans-serif;}
 
@@ -149,11 +147,11 @@ footer .list-inline-item:not(:last-child) {
     margin: 0;
     padding: 0;
 }
-/* sed this fix to keep content size same as screen size. */
+/* fix to keep content size same as screen size, figured with dev tools */
 footer .row{
     padding: 0;
     margin: 0;
-}
+} 
 
 .foot-left{
     float: left;
@@ -169,30 +167,29 @@ footer .row{
     text-align: right;
 }
 
-
-
-
-
+/*      MEDIA QUERIES      */
 
 /* evrything below is to adjust to desktop sizes */
-@media only screen and (min-width: 970px){
+@media only screen and (min-width: 770px){
 
-/* add active for desktops (might change it once will have several pages for mobile too) */
-    .active{
-        border: 1px solid #ff9df765;
-    }
 /* remove burger collapsable menu styling */
-    .navbar-nav{
+
+    #nav{
+        background-color: #ffffff00;
+    }
+    .navbar-nav{ 
         margin: 0 auto;
-        padding-top: 2.5rem;
+        padding: 2.5rem 0 0 0;
+        font-size: 1.25rem;
         border: 0px solid #ffffff00;
         background-color: #ffffff00;
     }
-/* remove paddinf so rext would be centered within buttons */
+
+    /* remove padding so rext would be centered within buttons */
     .navbar-nav li{
-        padding: 0.2rem 1rem;
+        padding: 0.2rem 0.5rem;
     }
-/* position buttons around logo */
+    /* position buttons around logo */
     .navbar-nav li:nth-child(1){
         margin-right: 1rem;
     }
@@ -206,10 +203,34 @@ footer .row{
         margin-left: 1rem;
     }
 
+    .navbar-nav li a{
+        text-align: center;
+    }
+
+
+
 /* center logo */
     .nav-logo{
+        width: 10rem;
+        height: 10rem;
         left: 50%;
         margin-left: -5rem;
+    }
+
+/* Hover.css customization */
+    .hvr-fade{
+        padding: 2px 1rem;
+        border: 1px solid #ffffff00;
+        border-radius: 0.5rem;
+    }
+    .hvr-fade:hover{
+        background-color: #ff9df74f;
+        border: 1px solid #ff9df765;
+        color: #000;
+    }
+    .active{
+        background-color: #ffffff00;
+        border: 1px solid #ff9df765;
     }
 
     

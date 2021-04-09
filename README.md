@@ -79,9 +79,13 @@ Here I will comment on issues and problems I have faced and solutions I found.
 + online did not show much results, so decided to figure how to center the menu items first and then spread them to place where I want it.
 + found ```mx-auto``` class that centered all items, but instead, to be able to style all items like I wanted, I picked ```navbar-nav```, centered it with own css and moved each item separately targeting child elements of ```navbar-nav```. Now it all is in place on desktop version like I need but in mobile preview it is a bit off, so will style it once will do mobile part later on.
 
-6. Realides that by using ```min-width```, best to strt off with mobile design and adjust rest of the code for desktop. will know for future.
+6. Realised that by using ```min-width```, best to strt off with mobile design and adjust rest of the code for desktop. will know for future.
+
+7. on burger menu when expanded goes behind hero content, looking out for a fix.
++ thought to have collapable menu going on top of content, then with time realised it is not practical no visually good, so moved on to menu, that wpuld push content down and will be better visually and practically.
++ long time I spent on optimizin navbar for mobile and desktop, playing with different sizes and ideas, finally, after 2 hours of styling, I got to poin I am happy with mobile menu style, works well on mobile, tablet and desktop. 
+> **Important:** It has a gap between 962px and 1240px where menu is mixed in styles between mobile and desktop style. Need to look in to it! As it was okay, then switched between previews and it plays up.
 
 ## Next steps
-> move on to mobile preview:
-> styled navifation
-> move on with mobile vision for hero imahe, content and so on.
+move on to mobile preview:
+move on with mobile vision for hero image, content and so on.
