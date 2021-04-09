@@ -76,7 +76,7 @@
 /* actual image was made and edited by me */
 .hero-image{
     background: url(../img/mr-s-hero-final.png) no-repeat center center / cover;
-    height: 38rem;
+    height: 51rem;
     margin-top: -1rem;
 
 }
@@ -137,12 +137,12 @@ hr{
 /* footer */
 
 footer{
-    height: 58px;
+    height: 5rem;
     background-color: #ff9df765;
     position: relative;
 }
 
-/* Figured this fix out by using dev tools in chrome */
+/* Figured this fix out by using dev tools in chrome, allighns all items on one row */
 footer .list-inline-item:not(:last-child) {
     margin: 0;
     padding: 0;
@@ -151,7 +151,11 @@ footer .list-inline-item:not(:last-child) {
 footer .row{
     padding: 0;
     margin: 0;
-} 
+}
+
+footer{
+    width: 100%;
+}
 
 .foot-left{
     float: left;
@@ -167,13 +171,14 @@ footer .row{
     text-align: right;
 }
 
-/*      MEDIA QUERIES      */
+/* --==-- MEDIA QUERIES --==-- */
 
 /* evrything below is to adjust to desktop sizes */
 @media only screen and (min-width: 770px){
 
-/* remove burger collapsable menu styling */
+/*   NAVIGATION   */
 
+/* DESKTOP menu styling */
     #nav{
         background-color: #ffffff00;
     }
@@ -185,11 +190,11 @@ footer .row{
         background-color: #ffffff00;
     }
 
-    /* remove padding so rext would be centered within buttons */
+/* remove padding so text would be centered within buttons */
     .navbar-nav li{
         padding: 0.2rem 0.5rem;
     }
-    /* position buttons around logo */
+/* position buttons around logo */
     .navbar-nav li:nth-child(1){
         margin-right: 1rem;
     }
@@ -207,9 +212,7 @@ footer .row{
         text-align: center;
     }
 
-
-
-/* center logo */
+/* size and center logo */
     .nav-logo{
         width: 10rem;
         height: 10rem;
@@ -233,7 +236,14 @@ footer .row{
         border: 1px solid #ff9df765;
     }
 
+/* --==-- BODY --==-- */
+
+/*   HERO IMAGE    */
+    .hero-image{
+    height: 35rem;
+    }
     
-    
+
+
 }
     
