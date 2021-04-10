@@ -183,27 +183,14 @@ hr{
 
 }
 
-/* footer */
-footer{
-    height: 5rem;
+ /* --==-- FOOTER --==-- (MOBILE) */
+
+#footer-content{
     background-color: #ff9df765;
-    position: relative;
+    text-align: center;
 }
 
-/* Figured this fix out by using dev tools in chrome, allighns all items on one row */
-footer .list-inline-item:not(:last-child) {
-    margin: 0;
-    padding: 0;
-}
-/* fix to keep content size same as screen size, figured with dev tools */
-footer .row{
-    padding: 0;
-    margin: 0;
-}
-footer{
-    width: 100%;
-}
-.foot-left{
+/* .foot-left{
     float: left;
 }
 .foot-center{
@@ -212,7 +199,7 @@ footer{
 .foot-right{
     float: right;
     text-align: right;
-}
+} */
 
 
 /* --==-- MEDIA QUERIES --==-- */
@@ -229,23 +216,23 @@ footer{
     .navbar-nav{ 
         margin: 0 auto;
         padding-top: 2.5rem;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         border: 0px solid #ffffff00;
         background-color: #ffffff00;
     }
 
 /* position buttons around logo (DESKTOP)  */
     .navbar-nav li:nth-child(1){
-        margin-right: 1.5rem;
+        margin-right: 1rem;
     }
     .navbar-nav li:nth-child(2){
-        margin-right: 7rem;
+        margin-right: 6rem;
     }
     .navbar-nav li:nth-child(3){
-        margin-left: 7rem;
+        margin-left: 6rem;
     }
     .navbar-nav li:nth-child(4){
-        margin-left: 1.5rem;
+        margin-left: 1rem;
     }
 
     .navbar-nav li a{
@@ -338,8 +325,7 @@ footer{
     *::after {
     box-sizing: unset;
     }
-
-    
+        
     #benefits-main-box{
         background-color: #ff9ef740;
         width: 75%;
@@ -349,21 +335,19 @@ footer{
     }
 
     .benefits-main-heading{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
         margin-top: 1rem;
+        font-family: 'Montserrat', sans-serif;
+
     }
 
-
-
     .benefits-heading{
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         margin-top: 1rem;
         font-family: 'Montserrat', sans-serif;
     }
 
     .info-icons{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         color: #ff9df7;
     }
 
@@ -371,8 +355,30 @@ footer{
         margin: 0 auto 2rem auto;
         width: 95%;
         font-family: 'Lexend', sans-serif;
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
+
+ /* --==-- FOOTER --==-- (DESKTOP) */
+
+ #footer-content{
+     margin: 0 auto;
+     padding: 0;
+     width: 75%;
+     position: relative;
+}
+
+.foot-left{
+    float: left;
+    text-align: left;
+}
+.foot-center{
+    text-align: center;
+}
+.foot-right{
+    float: right;
+    text-align: right;
+}
+
 
 
 }
