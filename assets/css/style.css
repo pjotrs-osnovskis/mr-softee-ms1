@@ -194,11 +194,30 @@ hr{
     background: #ffffff57;
     width: 90%;
     margin: 0 auto;
-    z-index: 3;
+    padding: 1rem;
+}
+
+.foot-left{
+    padding: 0;
+    margin: 0;
+}
+
+.foot-center{
+    margin: 0.5rem 0;
+}
+
+.foot-center p{
+    margin: 0;
+    padding: 0;
+}
+
+.foot-right{
+    vertical-align: middle;
+    margin: 0.5rem 0;
 }
 
 .personal-info-item{
-    padding-top: 0.5rem ;
+    padding: 0;
     margin: 0;
 }
 
@@ -219,8 +238,8 @@ hr{
 }
 
 .social-links{
-    padding-top: 0.5rem ;
-    margin: 0;
+    margin: 0.5rem;
+    vertical-align: middle;
 }
 
 .social-links li a{
@@ -230,26 +249,7 @@ hr{
     padding: 0 0.25rem;
 }
 
-.foot-rights{
-    padding: 0.5rem 0;
-    margin: 0;
-}
 
-.foot-rights{
-    
-}
-
-
-/* .foot-left{
-    float: left;
-}
-.foot-center{
-    text-align: center;
-}
-.foot-right{
-    float: right;
-    text-align: right;
-} */
 
 
 /* --==-- MEDIA QUERIES --==-- */
@@ -410,24 +410,47 @@ hr{
 
  /* --==-- FOOTER --==-- (DESKTOP) */
 
- #footer-content{
-     margin: 0 auto;
-     padding: 0;
-     width: 75%;
-     position: relative;
-}
+    #footer-content{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 6rem;
+        position: relative;
+    }
 
-.foot-left{
-    float: left;
-    text-align: left;
-}
-.foot-center{
-    text-align: center;
-}
-.foot-right{
-    float: right;
-    text-align: right;
-}
+    .foot-box{
+        background: #ffffff9b;
+        width: 75%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .foot-left{
+        float: left;
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    .social-links{
+        margin: 0;
+        padding: 0;
+    }
+
+    .foot-center{
+        margin: 0 auto;
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .foot-right{
+        float: right;
+        text-align: right;
+        padding-right: 1rem;
+    }
+
+    .personal-info-item:nth-child(1){
+        padding-top: 1rem;
+    }
 
 
 
