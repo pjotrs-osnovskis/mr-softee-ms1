@@ -169,7 +169,6 @@ hr{
     font-size: 1.25rem;
     margin-top: 1rem;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .info-icons{
@@ -187,8 +186,59 @@ hr{
 
 #footer-content{
     background-color: #ff9df765;
-    text-align: center;
+    text-align: center;  
+    width: 100%;  
 }
+
+.foot-box{
+    background: #ffffff57;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.personal-info-item{
+    padding-top: 0.5rem ;
+    margin: 0;
+}
+
+.personal-info-item i{
+    font-size: 1rem;
+    color: #ff9df7;
+    vertical-align: middle;
+}
+
+.personal-info-item a{
+    list-style: none;
+    color: #000;
+}
+
+.personal-info-item p{
+    margin: 0;
+    padding: 0;
+}
+
+.social-links{
+    padding-top: 0.5rem ;
+    margin: 0;
+}
+
+.social-links li a{
+    list-style: none;
+    font-size: 1.7rem;
+    color: #ff9df7;
+    padding: 0 0.25rem;
+}
+
+.foot-rights{
+    padding: 0.5rem 0;
+    margin: 0;
+}
+
+.foot-rights{
+    
+}
+
 
 /* .foot-left{
     float: left;
