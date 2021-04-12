@@ -100,8 +100,9 @@
 /* Hero content */
 
 .hero-box{
-    background: #ffffff99;
+    background: #ffffffbc;
     width: 90%;
+    height: 43rem;
     text-align: center;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
@@ -254,6 +255,37 @@ hr{
     padding: 0 0.25rem;
 }
 
+ /* --==-- HIRE NOW --==-- (MOBILE) */
+
+.hire-box{
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    width: 90%;
+    background-color: #ff9df71c;
+}
+
+.hire-box p{
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.hire-form{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hire-button{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.hire-img{
+    background: url(../img/hire-van-img.jpg) no-repeat center center / cover;
+    
+
+}
 
 
 

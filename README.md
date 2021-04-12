@@ -37,7 +37,7 @@ I intend to create a 4-page website that includes:
 
 ## Wireframes
 
-[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a wireframe of my page вуышпт that I have in mind as of 05/04/21.
+[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a wireframes of my page that I have in mind as of 05/04/21.
 
 ## Header
 
@@ -54,6 +54,10 @@ fixed footer with company contacts info, social links (basic).
 ## Licence
 
 Private
+
+## Credits
+
+01. Found a [Datepicker](https://github.com/eureka2/ab-datepicker) online and thought to use it for customer convinience in Hire a Van page.
 
 ## Project Status
 
@@ -92,10 +96,8 @@ Here I will comment on issues and problems I have faced and solutions I found.
 
 8. Set up secondary section on landing page. Used idea from Code Institute's Resume Project i.e. three-reasons items. Changed most of the code to my own liking, there was some minor issues with positioning, but overall looks good.
 
-
+> **Important:** It has a gap between 962px and 1240px where webapp is mixed in styles between mobile and desktop view. Need to look in to it! As it was okay at first, but then switched between previews with different widths and it plays up.
 
 ## Next steps
 
-> **Important:** It has a gap between 962px and 1240px where webapp is mixed in styles between mobile and desktop view. Need to look in to it! As it was okay at first, but then switched between previews with different widths and it plays up.
-
-+ move on to hire.html page.
++ move on to trays.html page
