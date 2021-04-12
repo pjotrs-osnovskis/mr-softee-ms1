@@ -16,7 +16,7 @@
 
 /* navbar burger icon  */
 .navbar-toggler{
-    background-color: #ff9df769;
+    background-color: #ff9df781;
     border: 1px solid #ff9ef7e6;
     position: absolute;
     top: 0;
@@ -28,11 +28,14 @@
 
 /* main naviagtion  */
 #nav{
-    background-color: #ff9df798;
+    background-color: #ff9df78c;
+    z-index: 4;
 }
 
 .navbar{
     padding: 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .navbar-nav{
@@ -41,7 +44,7 @@
     font-size: 1.5rem;
     font-family: 'Lexend', sans-serif;
     font-weight: 300;
-    margin-top: 5rem;
+    margin-top: 3.5rem;
 }
 
 .nav-link{
@@ -333,7 +336,7 @@ hr{
     }
 
     .hero-content{
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
 
  /*    HERO HEADING (DESKTOP)     */
@@ -345,7 +348,7 @@ hr{
     hr{
         width: 50%;
         border-top: 1px solid #ff9df7dc;
-        margin: 2rem auto;
+        margin: 1rem auto;
     }
 
 /*   HERO PARAHRAPH (DESKTOP)     */

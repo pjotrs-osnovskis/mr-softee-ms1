@@ -1,3 +1,6 @@
+![Am I Responsive Image](assets/img/amiresp.png)
+
+
 # Mr Softee
 
 ## Idea/Description
@@ -10,7 +13,7 @@ Idea behind this project is to create a website for existing Ice Cream Van busin
 
 I intend to create a 4-page website that includes:
 
-1. **Home page**
+1. **Home page [DONE]** 
 
     General information, why us, good hygene, friendly staff, maybe use some picture slides, book now button in the middle.
 
@@ -34,10 +37,7 @@ I intend to create a 4-page website that includes:
 
 ## Wireframes
 
-[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a wireframe of my page DESKTOP DESIGN that I have in mind as of 05/04/21.
-
-MOBILE DESIGN in development.
-
+[Here](https://app.moqups.com/vBfsRq0TBr/view/page/a91ceea0e) you can find a wireframe of my page вуышпт that I have in mind as of 05/04/21.
 
 ## Header
 
@@ -98,9 +98,4 @@ Here I will comment on issues and problems I have faced and solutions I found.
 
 > **Important:** It has a gap between 962px and 1240px where webapp is mixed in styles between mobile and desktop view. Need to look in to it! As it was okay at first, but then switched between previews with different widths and it plays up.
 
-+ Create Mobile view wireframe
-
-
-+ Footer 
-+ Width fix
-+ Move on to next page
++ move on to hire.html page.
