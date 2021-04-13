@@ -80,24 +80,32 @@
                 <p>Please fill in form below and we will get in touch with you as soon as we can.</p>
 <!-- Form created using code snippet from Bootstrap 4.6 documentation and altered to web app needs -->
                 <form class="hire-form">
-                    <div class="form-group">
-                        <label class="hire-label" for="formControlName">Full Name:</label>
-                        <input type="text" class="form-control" id="formControlName" placeholder="John Doe">                    </div>
+                    <div class="form-row ">
+                        <div class="form-group col-md-5">
+                            <label class="hire-label" for="formControlName">Full Name:</label>
+                            <input type="text" class="form-control" id="formControlName" placeholder="John Doe">
+                        </div>
 
-                    <div class="form-group">
-                        <label class="hire-label" for="formControlEmail">Email address:</label>
-                        <input type="email" class="form-control" id="formControlEmail" placeholder="john@example.com">
+                        <div class="form-group col-md-5">
+                            <label class="hire-label" for="formControlPhoneNumber">Phone Number:</label>
+                            <input type="text" class="form-control" id="formControlPhoneNumber" placeholder="07555 123456">
+                        </div>
                     </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label class="hire-label" for="formControlEmail">Email address:</label>
+                            <input type="email" class="form-control" id="formControlEmail" placeholder="john@example.com">
+                        </div>
 <!-- See 01 in Credits section in README.md file -->
-                    <div class="form-group">
-                    <label class="hire-label" for="date1">Event Date:</label>
-                    <input class="date form-control" id="date1" type="text" placeholder="dd/mm/yyyy" title="format: dd/MM/y"/>
+                        <div class="form-group col-md-5">
+                            <label class="hire-label" for="date1">Event Date:</label>
+                            <input class="date form-control" id="date1" type="text" placeholder="dd/mm/yyyy" title="format: dd/MM/y"/>
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <label class="hire-label" for="formControlTextarea">Event Details:</label>
-                        <textarea class="form-control" id="formControlTextarea" rows="5" placeholder="Enter event information here."></textarea>
-                    </div>
+                        <div class="form-textarea">
+                            <label class="hire-label" for="formControlTextarea">Event Details:</label>
+                            <textarea class="form-control" id="formControlTextarea" rows="5" placeholder="Enter event information here."></textarea>
+                        </div>
 <!-- Button placed in div for centering and other styling -->
                     <div class="hire-button">
                         <button class="btn btn-primary mx-auto" type="submit">Send</button> 
@@ -190,5 +198,6 @@
 			modal: false,
 		});
     });
+
 </script>
         <!-- END -->
