@@ -281,6 +281,19 @@ hr{
     background: url(../img/hire-van-img.jpg) no-repeat center center / cover;
 }
 
+ /* --==-- HIRE MODAL --==-- (MOBILE) */
+
+.modal-content{
+    background-color: #fbd2f8;
+}
+
+.modal-title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-body{
+    font-family: 'Lexend', sans-serif;
+}
 
 
 /* --==-- MEDIA QUERIES --==-- */
@@ -490,11 +503,6 @@ hr{
     .form-row{
         float: inherit;
     }
-
-    .form-textarea{
-    }
-
-    
 
 
 }
