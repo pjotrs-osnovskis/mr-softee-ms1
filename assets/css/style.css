@@ -1,3 +1,9 @@
+/* Main container */
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+
 /* --==-- NAVIGATION (MOBILE) --==-- */
 
 /* logo part in navigation row */
@@ -16,7 +22,7 @@
 
 /* navbar burger icon  */
 .navbar-toggler{
-    background-color: #ff9df781;
+    background-color: #ff9df7ad;
     border: 1px solid #ff9ef7e6;
     position: absolute;
     top: 0;
@@ -28,7 +34,7 @@
 
 /* main naviagtion  */
 #nav{
-    background-color: #ff9df78c;
+    background-color: #ff9df79b;
     z-index: 4;
 }
 
@@ -100,7 +106,7 @@
 /* Hero content */
 
 .hero-box{
-    background: #ffffffbc;
+    background: #ffffffdc;
     width: 90%;
     height: 43rem;
     text-align: center;
@@ -134,7 +140,7 @@ hr{
 
 /* hero button */
 .btn{
-    background-color: #ff9df7cc;
+    background-color: #ff9df7ad;
     margin-top: 0.7rem;
     border: 1px solid #ff9ef7e6;
     text-decoration: none;
@@ -148,26 +154,21 @@ hr{
 /* --==-- BENEFITS & PERKS SECTION (MOBILE) --==-- */
 
 #benefits-main-box{
-    background-color: #ff9ef740;
-    padding: 2rem 0;
-    width: 90%;
+    background-color: #ff9ef728;
     text-align: center;
-    top: 0; right: 0; bottom: 0; left: 0;
     margin: 0 auto;
+    padding-bottom: 1.5rem;
+
 }
 
 .benefits-main-heading{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    margin-top: 1rem;
-
+    margin: 1rem auto 0 auto;
 }
 
-.benefits-info-box{
-    width: 100%;
+.benefits-item{
     margin: 0 auto;
-    vertical-align: middle;
-    position: relative;
 }
 
 
@@ -190,58 +191,48 @@ hr{
 
  /* --==-- FOOTER --==-- (MOBILE) */
 
+/* Footer general content and box */
+
 #footer-content{
     background-color: #ff9df765;
     text-align: center;  
     width: 100%;  
+    margin: 0 auto;
+
 }
 
 .foot-box{
     background: #ffffff57;
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
     padding: 1rem;
+    text-align: center;  
 }
 
-.foot-left{
+/* Contact info styling */
+
+.contact-info-item{
     padding: 0;
     margin: 0;
 }
 
-.foot-center{
-    margin: 0.5rem 0;
-}
-
-.foot-center p{
-    margin: 0;
-    padding: 0;
-}
-
-.foot-right{
-    vertical-align: middle;
-    margin: 0.5rem 0;
-}
-
-.personal-info-item{
-    padding: 0;
-    margin: 0;
-}
-
-.personal-info-item i{
+.contact-info-item i{
     font-size: 1rem;
     color: #ff9df7;
     vertical-align: middle;
 }
 
-.personal-info-item a{
+.contact-info-item a{
     list-style: none;
     color: #000;
 }
 
-.personal-info-item p{
+.contact-info-item p{
     margin: 0;
     padding: 0;
 }
+
+/* Social links styling */
 
 .social-links{
     margin: 0.5rem;
@@ -260,13 +251,12 @@ hr{
 .hire-box{
     margin: 0 auto;
     padding-bottom: 0.5rem;
-    width: 90%;
     background-color: #ff9df71c;
 }
 
 .hire-box p{
     text-align: center;
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 1rem 1rem 1rem;
 }
 
 .hire-form{
@@ -296,9 +286,17 @@ hr{
 /* --==-- MEDIA QUERIES --==-- */
 
 /* evrything below is to adjust to desktop sizes */
-@media only screen and (min-width: 770px){
+@media only screen and (min-width: 1200px){
 
 /*   NAVIGATION (DESKTOP)    */
+
+/* size and center logo (DESKTOP)  */
+.nav-logo{
+    width: 8rem;
+    height: 8rem;
+    left: 50%;
+    margin-left: -4rem;
+}
 
 /* DESKTOP menu styling */
     #nav{
@@ -317,10 +315,10 @@ hr{
         margin-right: 1rem;
     }
     .navbar-nav li:nth-child(2){
-        margin-right: 6rem;
+        margin-right: 5rem;
     }
     .navbar-nav li:nth-child(3){
-        margin-left: 6rem;
+        margin-left: 5rem;
     }
     .navbar-nav li:nth-child(4){
         margin-left: 1rem;
@@ -328,14 +326,6 @@ hr{
 
     .navbar-nav li a{
         text-align: center;
-    }
-
-/* size and center logo (DESKTOP)  */
-    .nav-logo{
-        width: 10rem;
-        height: 10rem;
-        left: 50%;
-        margin-left: -3.5rem;
     }
 
 /* Hover.css customization (DESKTOP)  */
@@ -363,7 +353,6 @@ hr{
     
 /*    HERO CONTENT (DESKTOP)     */
     .hero-box{
-        background: #ffffff99;
         width: 75%;
         height: 35rem;
         text-align: center;
@@ -378,7 +367,7 @@ hr{
 
  /*    HERO HEADING (DESKTOP)     */
     .hero-content h1{
-        color: rgb(42, 52, 63);
+        color: #2a343f;
         font-family: 'Montserrat', sans-serif;
     }
 
@@ -410,26 +399,21 @@ hr{
     }
 
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
-
-/* Found this in dev tools, switched off for content to be centered */
-    *,
-    *::before,
-    *::after {
-    box-sizing: unset;
-    }
-        
+       
     #benefits-main-box{
-        background-color: #ff9ef740;
         width: 75%;
-        position: relative;
-        margin: 0 auto;
-        padding-bottom: 3rem;
+        padding-bottom: 1.5rem;
     }
 
     .benefits-main-heading{
         margin-top: 1rem;
         font-family: 'Montserrat', sans-serif;
+    }
 
+    .benefits-item{
+        margin: 0 auto;
+        min-width: 25rem;
+        padding: 0
     }
 
     .benefits-heading{
@@ -447,7 +431,7 @@ hr{
         margin: 0 auto 2rem auto;
         width: 95%;
         font-family: 'Lexend', sans-serif;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
  /* --==-- FOOTER --==-- (DESKTOP) */
@@ -461,7 +445,6 @@ hr{
     }
 
     .foot-box{
-        background: #ffffff9b;
         width: 75%;
         height: 100%;
         padding: 0;
@@ -490,7 +473,7 @@ hr{
         padding-right: 1rem;
     }
 
-    .personal-info-item:nth-child(1){
+    .contact-info-item:nth-child(1){
         padding-top: 1rem;
     }
 
@@ -498,21 +481,17 @@ hr{
 
     .hire-box{
         width: 75%;
-        background-color: #ff9df73f;
     }
-   
-    .hire-form{
-        width: 100%;
+    
+    .hire-label{
+        margin-top: 1rem;
     }
 
-    .form-group{
-        margin: 0 1rem;
-        padding: 0;
+    .form-row{
+        float: inherit;
     }
 
     .form-textarea{
-        width: 90%;
-        margin-left: 1rem;
     }
 
     

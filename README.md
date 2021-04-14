@@ -100,4 +100,8 @@ Here I will comment on issues and problems I have faced and solutions I found.
 
 ## Next steps
 
-+ move on to trays.html page
++ fix navigarion (AGAIN!), probably make logo smaller on mobile device, move it out of nav and make nav fixed for mobile, remove fixed nav from desktop, make buttons same size and text centered in the middle so spaces are same
+
++ check on width fix
+
++ move on to trays
