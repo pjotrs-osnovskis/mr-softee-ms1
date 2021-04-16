@@ -55,13 +55,13 @@
 <!-- MAIN SECION -->
         <section class="container-fluid">
 <!-- MAIN BG IMAGE -->
-                <div class="hero-image">
+                <div class="hero-image about-us-hero-image">
 <!-- GRADIENT EFFECT FOR HERO BG IMAGE -->
                     <div id="gradient"></div>
                 </div>
 
 <!-- MAIN CONTENT -->
-                <div class="hero-box">
+                <div class="hero-box ">
                     <div class="hero-content">
                         <h1>All About <br> Mister Softee UK</h1>
                         <hr>
@@ -72,9 +72,56 @@
 
 <!-- SECONDARY SECTION -->
             <section class="container-fluid">                
-<!-- here will be ABOUT content -->
-                <div>
-                    <h1>ABOUT CONTENT HERE</h1>
+<!-- here is ABOUT content -->
+                <div class="about-us-box">
+                    <div class="row">
+                        <div class="col-xl-6 col-10 mx-auto">
+                            <form class="about-us-form" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group col-md-5">
+                                        <label class="about-us-label" for="formControlName">Full Name:</label>
+                                        <input type="text" class="form-control" id="formControlName" placeholder="John Doe" required>
+                                    </div>
+                
+                                    <div class="form-group col-md-5">
+                                        <label class="about-us-label" for="formControlPhoneNumber">Phone Number:</label>
+                                        <input type="text" class="form-control" id="formControlPhoneNumber" placeholder="07555 123456" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-5">
+                                        <label class="about-us-label" for="formControlEmail">Email address:</label>
+                                        <input type="email" class="form-control" id="formControlEmail" placeholder="john@example.com" required>
+                                    </div>
+                                </div>
+                                    <div class="form-textarea">
+                                        <label class="about-us-text-area" for="formControlTextarea">Event Details:</label>
+                                        <textarea class="form-control" id="formControlTextarea" rows="5" placeholder="Enter event information here." required></textarea>
+                                    </div>
+                                <div class="hire-button">
+                                    <button class="btn hvr-fade" type="submit">Send</button> 
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xl-6 col-10 mx-auto">
+                           
+                            <div class="about-us-contact-info">
+                                <h4>Mister Softee UK Ltd.</h4>
+                                <address>
+                                    Kingsway,<br>
+                                    Unit 5, St Asaph Ave,<br>
+                                    Kinmel Bay,<br>
+                                    LL18 5HB
+                                </address>
+                                
+                                <h6>Office opening hours:</h6>
+                                <p>Mon - Sun 9AM till 5PM</p>
+
+                                <p>If you have any questions, please, use our contact form or you also can <a href="mailto:mistersoftee@email.com"><strong>email us</strong></a> or 
+                                <a href="tel:+441555123456"><strong>call us</strong></a>!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
         </section>
 
