@@ -334,6 +334,10 @@ hr{
     margin: 0;
 }
 
+.trays-follow-btn i{
+    color: #4267B2;
+}
+
  /* --==-- ABOUT US --==-- (MOBILE) */
 .about-us-hero-image{
     background: url(../img/about-us-hero.jpg) no-repeat center center / cover;
