@@ -160,21 +160,25 @@ hr{
 }
 
 
-/* --==-- BENEFITS & PERKS SECTION (MOBILE) --==-- */
 
-/* Benefits container within main container, container-fluid used to fill 
+/* Secondaty section container within main container, container-fluid used to fill 
 main container without additional sizing */
-#benefits-main-box{
+#secondary-main-box{
     background-color: #ff9ef728;
-    text-align: center;
     margin: 0 auto;
     padding: 2rem 1rem;
 }
 
+/* --==-- BENEFITS & PERKS SECTION (MOBILE) --==-- */
+
+#secondary-main-box h1{
+    text-align: center;
+}
 /* Centering benefits blocks */
 .benefits-item{
     margin: 0 auto;
     padding: 1rem 0;
+    text-align: center;
 }
 
 /* styling icons for benefits blocks */
@@ -183,83 +187,15 @@ main container without additional sizing */
     color: #ff9df7;
 }
 
-/* --==-- FOOTER --==-- (MOBILE) */
-
-/* Footer general content and box */
-
-#footer-content{
-    background-color: #ff9df765;
-    text-align: center;  
-    width: 100%;  
-    margin: 0 auto;
-    font-family: 'Lexend', sans-serif;
-
-}
-
-.foot-box{
-    background: #ffffff57;
-    margin: 0 auto;
-    width: 90%;
-    padding: 2rem;
-}
-
-/* Contact info styling */
-
-.contact-info-item i{
-    color: #ff9df7;
-    vertical-align: middle;
-}
-
-.contact-info-item a{
-    color: #000;
-}
-
-/* Social links styling */
-
-.social-links-box ul{
-    margin: 0.5rem 0;
-}
-
-.social-links-box a{
-    font-size: 2rem;
-    color: #ff9df7;
-}
-
-.copyright-box p{
-    margin: 0;
-}
 
 /* --==-- HIRE NOW --==-- (MOBILE) */
 
-.hire-box{
-    margin: 0 auto;
-    padding-bottom: 0.5rem;
-    background-color: #ff9df71c;
-}
-
-.hire-box p{
+/* Aligned paragraph text and placed Send button in the middle */
+#secondary-main-box p, .hire-button{
     text-align: center;
-    padding: 2rem 1rem 1rem 1rem;
-}
-
-.hire-form{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.hire-button{
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.hire-button .btn{
-    color: black;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* Updated image for hire.html page */
-
 .hire-img{
     background: url(../img/hire-van-img.jpg) no-repeat center center / cover;
 }
@@ -331,7 +267,7 @@ main container without additional sizing */
     padding: 1rem;
 }
 
- .about-us-form{
+.about-us-form{
     margin: 0 auto;
  }
 
@@ -339,15 +275,57 @@ main container without additional sizing */
     padding-top: 1rem;
 }
 
+
+/* --==-- FOOTER --==-- (MOBILE) */
+
+/* Footer general content and box */
+
+#footer-content{
+    background-color: #ff9df765;
+    text-align: center;  
+    width: 100%;  
+    margin: 0 auto;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.foot-box{
+    background: #ffffff57;
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem;
+}
+
+/* Contact info styling */
+
+.contact-info-item i{
+    color: #ff9df7;
+    vertical-align: middle;
+}
+
+.contact-info-item a{
+    color: #000;
+}
+
+/* Social links styling */
+
+.social-links-box ul{
+    margin: 0.5rem 0;
+}
+
+.social-links-box a{
+    font-size: 2rem;
+    color: #ff9df7;
+}
+
+.copyright-box {
+    margin: 0;
+}
+
+
 /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */
 /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */
-
-/* evrything below is to adjust to desktop sizes, min width 1200px is for design to work, I had issues
-with with and bootsrtap navigation acted weird in different gaps, so had to use pretty large width and XL sized in bootstrap.  */
-@media only screen and (min-width: 1200px){
-
-
-
+@media only screen and (min-width: 992px){
 /*   NAVIGATION (DESKTOP)    */
 
 /* size and center logo (DESKTOP)  */
@@ -454,13 +432,18 @@ with with and bootsrtap navigation acted weird in different gaps, so had to use 
 
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
 /* used this box to push content together a little */
-    #benefits-main-box{
-        padding: 3rem 8rem;
+    #secondary-main-box{
+        padding: 2rem 8rem;
+    }
+
+    .benefits-item{
+        padding: 0 1rem;
     }
 
 
- /* --==-- FOOTER --==-- (DESKTOP) */
 
+ /* --==-- FOOTER --==-- (DESKTOP) */
+/* general footer styling */
     #footer-content{
         height: 6rem;
     }
@@ -470,19 +453,18 @@ with with and bootsrtap navigation acted weird in different gaps, so had to use 
         height: 100%;
         padding: 1rem;
     }
-
+/* Social links styling */
     .social-links-box{
         float: left;
         text-align: left;
     }
-
+/* Copyright styling */
     .copyright-box{
         padding-top: 3rem;
         margin: 0 auto;
         text-align: center;
     }
-
-
+/* Contact info styling */
     .contact-info-box{
         float: right;
         text-align: right;
@@ -495,17 +477,6 @@ with with and bootsrtap navigation acted weird in different gaps, so had to use 
 
  /* --==-- HIRE NOW --==-- (DESKTOP) */
 
-    .hire-box{
-        width: 75%;
-    }
-    
-    .hire-label{
-        margin-top: 1rem;
-    }
-
-    .form-row{
-        float: inherit;
-    }
 
  /* --==-- TRAYS --==-- (DESKTOP) */
 
