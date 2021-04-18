@@ -15,6 +15,27 @@ p{
     padding: 0;
 }
 
+
+/* Buttons */
+.submit-button{
+    text-align: center;
+}
+
+.submit-button i{
+    color: #4267B2;
+}
+
+.btn{
+    background-color: #ff9df7ad;
+    margin-top: 0.7rem;
+    border: 1px solid #ff9ef7e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+}
+
 /* --==-- NAVIGATION (MOBILE) --==-- */
 
 /* logo part in navigation row */
@@ -147,20 +168,6 @@ hr{
     margin: 0 auto;
 }
 
-/* hero button */
-.btn{
-    background-color: #ff9df7ad;
-    margin-top: 0.7rem;
-    border: 1px solid #ff9ef7e6;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-family: 'Lexend', sans-serif;
-    font-weight: 300;
-}
-
-
-
 /* Secondaty section container within main container, container-fluid used to fill 
 main container without additional sizing */
 #secondary-main-box{
@@ -191,39 +198,21 @@ main container without additional sizing */
 /* --==-- HIRE NOW --==-- (MOBILE) */
 
 /* Aligned paragraph text and placed Send button in the middle */
-#secondary-main-box p, .hire-button{
+#secondary-main-box h3, p{
     text-align: center;
 }
 
 /* Updated image for hire.html page */
+/* Image taken by me */
 .hire-img{
     background: url(../img/hire-van-img.jpg) no-repeat center center / cover;
 }
 
  /* --==-- TRAYS --==-- (MOBILE) */
-
 /* Trays hero image */
+/* Image taken by me */
  .trays-hero-image{
     background: url(../img/trays-hero.jpg) no-repeat center center / cover;
- }
-
- /* Trays container styling and positioning */
- .trays-box{
-    background-color: #ff9ef728;
-    padding: 1rem;
-    margin: 0 auto;
- }
-
-.trays-box h5{
-    font-family: 'Montserrat', sans-serif;
-}
-
- .trays-box p{
-    width: 90%;
-    margin: 1rem auto;
-    padding: 0;
-    font-family: 'Lexend', sans-serif;
-    font-size: 1rem;
  }
 
 /* Trays menu styling */
@@ -232,39 +221,30 @@ main container without additional sizing */
 }
 
  /* Trays image styling */
- .trays-menu-img{
-    background: url(../img/trays-scnd.jpg) no-repeat center center / cover;
+/* Image provided by owner of Mister Softee UK Ltd. for learning purpouses only */
+.trays-menu-img{
+    background: url(../img/trays-scnd.jpg) no-repeat center center / contain;
     margin: 0 auto;
     width: 18rem;
     height: 18rem;
-    vertical-align: middle;
 }
 
 /* Trays menu styling */
 .trays-menu-table{
-    width: 100%;
-    padding-left: 1rem;
     margin: 1rem auto;
     text-align: left;
     text-transform: uppercase;
 }
 
+/* fix for mobile view to have menu in one col without gaps */
 .trays-menu-table ul{
     margin: 0;
 }
 
-.trays-follow-btn i{
-    color: #4267B2;
-}
-
  /* --==-- ABOUT US --==-- (MOBILE) */
+ /* Image taken by me */
 .about-us-hero-image{
     background: url(../img/about-us-hero.jpg) no-repeat center center / cover;
-}
-
-.about-us-box{
-    background-color: #ff9df732;
-    padding: 1rem;
 }
 
 .about-us-form{
@@ -272,9 +252,17 @@ main container without additional sizing */
  }
 
 .about-us-contact-info{
-    padding-top: 1rem;
+    padding-top: 3rem;
+    text-align: center;
 }
 
+
+/* Image taken from pngfind.com */
+.hygene-rating-img{
+    background: url(../img/hygene-rating.png) no-repeat center center / contain;
+    width: 100%;
+    height: 7rem;
+}
 
 /* --==-- FOOTER --==-- (MOBILE) */
 
@@ -325,7 +313,9 @@ main container without additional sizing */
 
 /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */
 /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */ /* --==-- MEDIA QUERIES --==-- */
+
 @media only screen and (min-width: 992px){
+
 /*   NAVIGATION (DESKTOP)    */
 
 /* size and center logo (DESKTOP)  */
@@ -420,15 +410,6 @@ main container without additional sizing */
         margin: 0 auto;
     }
 
-/*   BUTTON (DESKTOP)     */
-    .btn{
-        background-color: #ff9df7ab;
-        border: 1px solid #ff9df765;
-        margin: 1.25rem 0;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: 'Lexend', sans-serif;
-    }
 
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
 /* used this box to push content together a little */
@@ -439,8 +420,6 @@ main container without additional sizing */
     .benefits-item{
         padding: 0 1rem;
     }
-
-
 
  /* --==-- FOOTER --==-- (DESKTOP) */
 /* general footer styling */
@@ -475,7 +454,6 @@ main container without additional sizing */
         padding-top: 0.5rem;
     }
 
- /* --==-- HIRE NOW --==-- (DESKTOP) */
 
 
  /* --==-- TRAYS --==-- (DESKTOP) */
@@ -486,12 +464,13 @@ main container without additional sizing */
         height: 100%;
     }
 
-    .trays-menu-left{
-        padding-left: 5rem;
+
+ /* --==-- ABOUT US --==-- (DESKTOP) */
+
+    .about-us-contact-info{
+        padding-top: 0;
     }
-
-
-
+    
 
 }
     
