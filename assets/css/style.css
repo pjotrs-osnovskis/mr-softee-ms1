@@ -42,19 +42,19 @@ p{
 /* logo image was taken from www.mister-softee.co.uk, I have permition from company owner to use it for learning purposes */
 .nav-logo{
     background: url(../img/mr-s-logo.png) no-repeat center center / cover;
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     top: 0;
     content: "";
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     left: 10%;
     z-index: 1;
 }
 
 /* navbar burger icon  */
 .navbar-toggler{
-    background-color: #ff9df7ad;
+    background-color: #ffe8fdd2;
     border: 1px solid #ff9ef7e6;
     position: absolute;
     top: 0;
@@ -147,7 +147,7 @@ p{
     margin: 0 auto;
 }
 .hero-content{
-    padding: 8rem 1rem 0 1rem;
+    padding: 7rem 1rem 0 1rem;
 }
 /* hero header */
 .hero-content h1{
