@@ -166,9 +166,11 @@ hr{
     width: 90%;
     padding: 0.5rem 0;    
     margin: 0 auto;
+    font-size: 1.2rem;
 }
 
-/* Secondaty section container within main container, container-fluid used to fill 
+
+/* Secondary section container within main container, container-fluid used to fill 
 main container without additional sizing */
 #secondary-main-box{
     background-color: #ff9ef728;
@@ -409,6 +411,8 @@ main container without additional sizing */
         padding: 1rem 0;    
         margin: 0 auto;
     }
+
+    
 
 
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
