@@ -28,7 +28,25 @@ This website would be owned by the owner of the comany and used for informative 
 
 ## 5 UX Planes
 ---
-### **- Strategy Plane -**
+
+### User Stories
+
+1. A new visitor, I want them:
+    * to understand what business does;
+    * to navigate easily and intuitively across the web application;
+    * to answer their questions before they have any.
+2. A potential/interested client should:
+    * see what experience previous customers had and what they think about the business/service;
+    * understand what service they can use and how to contact mamagement team with their request;
+    * understand and fill a booking or contact form and understand the difference between them easily.
+3. A returning client can quicly find:
+    * how to navigate to required service to refresh their memory or share with others, for example, Trays page;
+    * to find appropriate information they are looking for quicly;
+    * how to contact business management quikly.
+
+<br />
+
+### Strategy Plane
 
 Website is created with a business card model idea behind it. Delivering useful information about company servises to a potential custumer. 
 + Main aim is to provide clear understaing of services provided and how to contact management team for further assistance with a booking an icecream van for personal or commercial use. 
@@ -58,7 +76,7 @@ Please see a table below to see what website should contain for users value. The
 
 <br />
 
-### **- Scope Plane -**
+### Scope Plane
 
 What features this project should include:
 + Hero background image related to the page, i.e. Hire a Van page - van in the backgound, etc.
@@ -69,7 +87,7 @@ What features this project should include:
 
 <br />
 
-### **- Structure Plane -**
+### Structure Plane
 
 Website contains 4 pages with various information on every page (Home, Hire a Van, Trays and About Us), Every page has naviagtion, hero section with brief description of the service, secondary section that has has relevant content for certain page and a footing.
 
@@ -92,7 +110,7 @@ Website contains 4 pages with various information on every page (Home, Hire a Va
 <br />
 
 
-### **- Skeleton Plane -**
+### Skeleton Plane
 
 Website created using mobile first design, please see wireframes below for mobile and desktop view.
 
@@ -111,7 +129,7 @@ Note: *Some item positioning may differ from original wireframes due to stlyling
 
 <br />
 
-### **- Surface Plane -**
+### Surface Plane
 
 **Background**
 
@@ -159,7 +177,6 @@ Fonts used are *Montserrat* and *Lexend*. As I am a fan of thin and simple fonts
 | [**VS Code**](https://code.visualstudio.com/) | IDE |
 | [**Git**](https://git-scm.com/) | Version Control |
 | [**GitHub**](https://github.com/) | File Storage, Project Deployment |
-| []
 
 <br />
 
@@ -321,8 +338,6 @@ Made sure all links are in working order by clicking on each and one of them on 
 
 <br />
 
-
-
 ## Other Fixes/Issues/Solutions
 ---
 In this section You can find comments on issues and problems I have faced and solutions I found during the production of this project.
@@ -363,6 +378,8 @@ In this section You can find comments on issues and problems I have faced and so
 
 10. Once index.html was ready, I did not encounter any major difficulties during the course of producion. Had small issues here and there because of lack of experience, but were quicly resolved by using relevant documentation, common sence and experience gained.
 
+11. Deployment: had an issue with GitGub Pages, had to change the Theme for deployment to work properly, I'm not sure why and how it works just yet, but it helped and works fine now.
+
 <br />
 
 ## Credits
@@ -397,3 +414,6 @@ All content on the website was written by me.
 ## Acknowledgements
 ---
 I would like to thank my mentor **Spenser Barriball** for support and help during this project. Also huge "Thank You!" to **Code Institute** and **CyC Slack** community for support and **all tutours** who worked hard on the study material that got me to this point.
+
+
+

@@ -36,6 +36,14 @@ p{
     font-weight: 300;
 }
 
+/* Icons */
+
+.info-icons{
+    color: #ff9df7;
+}
+
+
+
 /* --==-- NAVIGATION (MOBILE) --==-- */
 
 /* logo part in navigation row */
@@ -61,13 +69,12 @@ p{
     content: "";
     margin: 2rem 0;
     right: 10%;
-    z-index: 5;
+    z-index: 1;
 }
 
 /* main naviagtion  */
 #nav{
     background-color: #ffe8fdfa;
-    z-index: 4;
 }
 
 .navbar{
@@ -178,22 +185,33 @@ main container without additional sizing */
     padding: 2rem 1rem;
 }
 
-/* --==-- BENEFITS & PERKS SECTION (MOBILE) --==-- */
+/* --==-- REVIEWS (MOBILE) --==-- */
 
 #secondary-main-box h1{
     text-align: center;
 }
-/* Centering benefits blocks */
-.benefits-item{
+/*  review block styling */
+.review-item{
     margin: 0 auto;
     padding: 1rem 0;
     text-align: center;
 }
 
-/* styling icons for benefits blocks */
-.info-icons{
-    font-size: 1.25rem;
+.review-item a{
     color: #ff9df7;
+}
+
+/* star rating styling */
+.star-rating i{
+    margin: 0 -0.4rem;
+}
+
+/* Modal */
+
+.modal-footer{
+    padding: 2rem;
+    display: unset;
+    text-align: center;
 }
 
 
@@ -290,7 +308,6 @@ main container without additional sizing */
 
 .contact-info-item i{
     color: #ff9df7;
-    vertical-align: middle;
 }
 
 .contact-info-item a{
@@ -300,16 +317,17 @@ main container without additional sizing */
 /* Social links styling */
 
 .social-links-box ul{
+    vertical-align: middle;
     margin: 0.5rem 0;
 }
 
 .social-links-box a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ff9df7;
 }
 
-.copyright-box {
-    margin: 0;
+.copyright-box a{
+    color: #ff9df7;
 }
 
 
@@ -418,11 +436,20 @@ main container without additional sizing */
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
 /* used this box to push content together a little */
     #secondary-main-box{
-        padding: 2rem 8rem;
+        padding: 2rem;
     }
 
-    .benefits-item{
-        padding: 0 1rem;
+    .review-item{
+        padding: 2rem 2rem;
+
+    }
+
+    .reviewer{
+        float: left;
+    }
+
+    .star-rating{
+        float: right;
     }
 
  /* --==-- FOOTER --==-- (DESKTOP) */
@@ -441,11 +468,16 @@ main container without additional sizing */
         float: left;
         text-align: left;
     }
+    .social-links-box ul{
+        margin: 0;
+    }
+    .social-links-box a{
+        font-size: 2rem;
+    }
 /* Copyright styling */
     .copyright-box{
-        padding-top: 3rem;
         margin: 0 auto;
-        text-align: center;
+        text-align: center; 
     }
 /* Contact info styling */
     .contact-info-box{
@@ -454,9 +486,6 @@ main container without additional sizing */
         padding-right: 1rem;
     }
 
-    .contact-info-item:nth-child(1){
-        padding-top: 0.5rem;
-    }
 
 
 
