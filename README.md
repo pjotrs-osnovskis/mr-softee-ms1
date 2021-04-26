@@ -398,10 +398,11 @@ In this section You can find comments on issues and problems I have faced and so
 + Hero background images were taken by me with only exception that About US image was taken on my phone with me in the photo.
 + Trays secondary image was provided by Mister Softee UK owner.
 + Logo was taken from [Mister Softee UK](https://mistersoftee-icecream.co.uk/) official website, permission granted by the owner of the company.
++ Term and Conditions text copied from [Mister Softee UK](https://mistersoftee-icecream.co.uk/), pasted in to Word file and saved as PDF.
 
 ### Content
 
-All content on the website was written by me.
+Main content written by me, reviews taken from websites credited in the code, terms and conditions credited in section above.
 
 <br />
 
@@ -413,7 +414,7 @@ All content on the website was written by me.
 
 ## Acknowledgements
 ---
-I would like to thank my mentor **Spenser Barriball** for support and help during this project. Also huge "Thank You!" to **Code Institute** and **CyC Slack** community for support and **all tutours** who worked hard on the study material that got me to this point.
+I would like to thank my mentor **Spenser Barriball** for support and help during this project. Also huge "Thank You!" to **Code Institute** and **CyC Slack** community for support and **all tutours** who worked hard on the study material that got me to this point, as well as **Assessors** who will assess this project, of course.
 
 
 

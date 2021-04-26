@@ -477,7 +477,11 @@ main container without additional sizing */
 /* Copyright styling */
     .copyright-box{
         margin: 0 auto;
-        text-align: center; 
+        text-align: center;
+    }
+    .copyright-box ul{
+        margin: 0;
+        vertical-align: middle;
     }
 /* Contact info styling */
     .contact-info-box{
