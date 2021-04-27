@@ -269,7 +269,7 @@ main container without additional sizing */
 
 .about-us-form{
     margin: 0 auto;
- }
+}
 
 .about-us-contact-info{
     padding-top: 3rem;
@@ -294,7 +294,7 @@ main container without additional sizing */
     width: 100%;  
     margin: 0 auto;
     font-family: 'Lexend', sans-serif;
-
+    
 }
 
 .foot-box{
@@ -430,8 +430,6 @@ main container without additional sizing */
         margin: 0 auto;
     }
 
-    
-
 
 /* --==-- BENEFITS & PERKS SECTION (DESKTOP) --==-- */
 /* used this box to push content together a little */
@@ -441,7 +439,6 @@ main container without additional sizing */
 
     .review-item{
         padding: 2rem 3rem;
-
     }
 
     .reviewer{
@@ -491,8 +488,6 @@ main container without additional sizing */
     }
 
 
-
-
  /* --==-- TRAYS --==-- (DESKTOP) */
 
      /* Trays image DESKTOP styling */
@@ -507,7 +502,6 @@ main container without additional sizing */
     .about-us-contact-info{
         padding-top: 0;
     }
-    
 
 }
     
