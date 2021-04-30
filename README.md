@@ -22,7 +22,7 @@ This website is created for regular people as well as event organisers with plen
 
 ## Owners goals
 ---
-This website would be owned by the owner of the comany and used for informative pourpouses for potential clients.
+This website would be owned by the owner of the comany and used for informative purposes for potential clients.
 
 <br />
 
@@ -91,7 +91,7 @@ What features this project should include:
 
 Website contains 4 pages with various information on every page (Home, Hire a Van, Trays and About Us), Every page has naviagtion, hero section with brief description of the service, secondary section that has has relevant content for certain page and a footing.
 
-**Home:** Has a warm welcoming message and offer to hire a van for potential customers event, Benefits and Perks section with overall information for trust rating increase.
+**Home:** Has a warm welcoming message and offer to hire a van for potential customers event, Why us? section with reviews and links to theit source, modal on Read more if review is too large.
 
 **Hire a Van:** Contains a booking form in secondary section with **date** and **description** fields for customer to fill in. 
 
@@ -99,7 +99,7 @@ Website contains 4 pages with various information on every page (Home, Hire a Va
 
 **About Us:** Basic information, general contact form for feedback and other questions rather thab an event booking, Address and other contact options i.e. email and phone.
 
-**Header/Footer:** On all 4 pages Header and Footer are copied and pasted (with nav links altered of course) simply to keep overall website design and estetics. 
+**Header/Footer:** On all 4 pages Header and Footer are copied and pasted (with nav links altered of course) simply to keep overall website design and estetics, Terms and Conditions has a link to separate PDF file. 
 
 **Hero Section:** Every Page has a Hero section with relative background and brief text, also added gradient on top of background image, just because I can and it looks great, little different to ordenary websites.
 
@@ -141,7 +141,11 @@ Color is couple shades of pink with different transperency setting to make it a 
 
 **Fonts**
 
-Fonts used are *Montserrat* and *Lexend*. As I am a fan of thin and simple fonts, I decided to use Montserrat and Google offered me Lexend as one of hte options to go with it, looked good - decidion made. Montserrat looks good in the headings and Lexend in paragraphs.
+Fonts used are *Montserrat* and *Lexend*. As I am a fan of thin and simple fonts, I decided to use Montserrat and Google offered me Lexend as one of hte options to go with it, looked good - decision made. Montserrat looks good in the headings and Lexend in paragraphs.
+
+**Forms**
+
+One form for Hire a Van and second for About us, two forms for owner to separate bookings from other customer queries, has placeholders to help web application users intuitively understand what ot fill in.
 
 <br />
 
@@ -152,12 +156,12 @@ Fonts used are *Montserrat* and *Lexend*. As I am a fan of thin and simple fonts
 
 + Webpage created with HTML5, CSS3 and Bootstrap 4.6
 + Consists of 4 pages (Home, Hire a Van, Trays and About)
-+ Hire form and Contact Form seaprately for owner to clearly separate booking requests from feedback.
-+ Email and phone links for mobile user convinience
++ Hire form and Contact Form separately for owner to clearly separate booking requests from feedback.
++ Email and phone links for mobile user convenience
 + Follow Us button on Trays page to increase Social Media activity
 
 ### Potential Features to Add
-+ Google maps with area coverage for customers to easily identify areas comany covers
++ Google maps with area coverage for customers to easily identify areas company covers
 + Modal for filled in forms 
 + In case of another lockdown, full menu of Trays and payment system for home delivery orders
 + Welsh language translation for entire page
@@ -324,6 +328,22 @@ Conclusion of **Lighthouse** testing: Most errors possible were fixed to my know
 
 <br />
 
+### User Story testing
+
+1. A new visitor, once open a webpage:
+    * can see welcome message and paragraph about what business does;
+    * can see menu (and menu burger button in mobile version) and clearly understand where to go after what information;
+    * in hero section heading and parapraph on every page I can read what this page is about, have clear forms and trays menu, address and contact information.
+2. A potential/interested client can see:
+    * reviews on a index.html page are clear and has links to them;
+    * address, contact form, "email us" and "call us" links in the about us page;
+    * in Hire Now and About Us pages forms are clear and understandable.
+3. A returning client:
+    * can see clear menu and easily navigate to any page, has Follow Us button with Facebook icon that intuitively indicates what this button does;
+    * can see contact information in the footing as well as in About Us page can find contact form and contact links.
+
+<br />
+
 ### Web Browsers 
 
 During the development I mainly used Google Chrome on Windows 10 and Android Platforms. During final testing I used [PowerMapper](https://www.powermapper.com/) to check website compatibility across veriaty of browsers.
@@ -379,6 +399,14 @@ In this section You can find comments on issues and problems I have faced and so
 10. Once index.html was ready, I did not encounter any major difficulties during the course of producion. Had small issues here and there because of lack of experience, but were quicly resolved by using relevant documentation, common sence and experience gained.
 
 11. Deployment: had an issue with GitGub Pages, had to change the Theme for deployment to work properly, I'm not sure why and how it works just yet, but it helped and works fine now.
+
+12. On third meeting with mentor we noticed errors in Lighthouse: 
+
+`Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.`
+
+`DevTools failed to load SourceMap: Could not load content for https://sscip.github.io/mr-softee-ms1/bootstrap.min.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE`
+
+We had a look in to it and could not find a solution or reason for them.
 
 <br />
 
