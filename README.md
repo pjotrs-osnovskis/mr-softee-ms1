@@ -4,7 +4,7 @@
 
 ## Idea/Description
 ---
-Idea behind this project is to create a mobile first pseudo website for existing Ice Cream Van business I work for over the weekends. Since I am in the business for over 2 years, I have a good insight and ideas how the website should look. I want to make it light, easy to browse and understand, with only most useful information about company and what services it provides. You can find it [**here**](https://sscip.github.io/mr-softee-ms1/).
+Idea behind this project is to create a mobile first pseudo website for existing Ice Cream Van business I work for over the weekends. Since I am in the business for over 2 years, I have a good insight and ideas how the website should look. I want to make it light, easy to browse and understand, with only most useful information about company and what services it provides. You can find it [**here**](https://sscip.github.io/mr-softee-ms1/) and Github repository [**here**](https://github.com/sscip/mr-softee-ms1).
 
 >**Important:** I have agreed with business owner to use any text or images (not code) off his current website for this project for learning purposes, their usage will be credited here or in the comments by their code.
 
